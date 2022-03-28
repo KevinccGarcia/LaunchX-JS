@@ -6,6 +6,19 @@
   font-family: Pokemonsubtitle;
   src: url(../.././styles/fonts/PokemonHollow.ttf); }
 
+@font-face {
+    font-family: 'Pokemon Pixel Font';
+    src: url('data:font/woff2;charset=utf-8;base64,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') format('woff2'),
+        url('data:font/woff;charset=utf-8;base64,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') format('woff'),
+        url('Pokemon-Pixel-Font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
   *{
   box-sizing: border-box;
   margin: 0;
@@ -13,16 +26,15 @@
 }
 
 body{
-   display: flex;
-   font-family: sans-serif;
-   justify-content: center;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url("../../assets/images/background.png");
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image: url("../../assets/images/background.png");
 }
 .pokedex {
   align-items: flex-end;
@@ -54,7 +66,6 @@ body{
   flex-direction: column;
   right: 75px;
   top: 125px;
-  font-family: 'Pokemsubtitle, sans-serif';
   box-sizing: content-box;
 }
 
@@ -83,15 +94,17 @@ body{
 .pokeInfo {
   background-color: #eb1d49;
   position: absolute;
-  height: 354px;
-  width: 361px;
+  height: 669px;
+  width: 549px;
   padding: 2%;
-  border-bottom-left-radius: 50px;
-  border-top-left-radius: 10px;
-  box-shadow: -7px 10px 20px -4px rgb(0, 0, 0);
-  left: -8px;
-  top: 91px;
-  font-family: 'Pokemonsubtitle, sans-serif';
+  border-bottom-left-radius: 80px;
+ /*  border-top-left-radius: 10px; */
+  box-shadow: -7px 10px 20px -4px rgb(0 0 0);
+  left: -346px;
+  top: 48px;
+  border-bottom: 4px black solid;
+  border-right: 4px black solid;
+  border-left: 4px black solid;
 }
 
 .middleinf {
@@ -103,22 +116,251 @@ body{
   background-color: #b8193b;
 }
 
-.pokeInfo {
-  display: inline-block;
+.pokeImages {
+  background-color: rgb(221, 221, 221);
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  border: black 1px solid;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 330px;
+  height: 237px;
+  align-items: center;
+  justify-content: center;
+  border: 4px black solid;
+  border-bottom-left-radius: 75px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 4px 5px 6px 1px #363131bd;
+  top: 85px;
 }
 
-.pokeTitles {
-  font-family: '';
-  position: relative;
-  float: left;
-  left: 0px;
-  display: inline-block
+.pokeImages img{
+  width: auto;
+  height: 153px;
+  margin: 35px 10px;
+  position: absolute;
+  /* border: px black solid; */
 }
+
+.pokeImage{
+  content: " ";
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(93, 91, 91, 0) 50%, rgba(110, 110, 110, 0.25) 50%), linear-gradient(90deg, rgba(133, 121, 121, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  box-shadow: inset -12px -6px 11px 0px #28282826;
+}
+
+.pokeImageBack {
+  content: " ";
+  background: linear-gradient(rgba(93, 91, 91, 0) 50%, rgba(110, 110, 110, 0.25) 50%), linear-gradient(90deg, rgba(133, 121, 121, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+  box-shadow: inset -12px -6px 11px 0px #28282826;
+}
+
+.pokeImageBack {
+  right: 20px;
+  background-color: rgb(234, 229, 214);
+  border-top: black 4px solid;
+  border-bottom: black 4px solid;
+ /*  border-left: 2px solid; */
+ border-right: 4px black solid;
+ border-top-right-radius: 6px;
+ border-bottom-right-radius: 6px ;
+}
+
+
+
+.pokeImage {
+  left: 20px;
+  background-color: rgb(234, 229, 214);
+  border-top: black 4px solid;
+  border-bottom: black 4px solid;
+  border-left: 4px solid;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.pokeMain {
+  /* background-color: aqua; */
+  width: 135px;
+  float: left;
+  margin-left: 14px;
+  margin-bottom: 10px;
+  margin-top: 17px;
+  text-align: left;
+  font-family: 'Pokemon Pixel font';
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  color: #57ff81;
+  text-shadow: #2bff1bc7 -1px 2px 2px;
+}
+
+
+.pokeSec {
+  width: 115px;
+  /* background-color: bisque; */
+  float: right;
+  margin-right: 24px;
+  margin-bottom: 10px;
+  margin-top: 17px;
+  text-align: left;
+  font-family: 'Pokemon Pixel font';
+  font-size: 1.5rem;
+  text-shadow: #2bff1bc7 -1px 2px 2px;
+  color: #57ff81;
+}
+
+.pokeData {
+  background-color:#096821;
+  background-image: linear-gradient(to right, rgba(116, 89, 236, 0), rgb(34, 97, 32));
+  position: absolute;
+  width: 335px;
+  height: 284px;
+  top: 350px;
+  right: 151px;
+  border-top: 3px black solid;
+  border-left: 3px black solid;
+  border-bottom: 3px black solid;
+  border-right: 4px black solid;
+  border-radius: 7px;
+  box-shadow: inset 1px 3px 14px 0px #282828;
+}
+
+.pokeData::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(93, 91, 91, 0) 50%, rgba(110, 110, 110, 0.25) 50%), linear-gradient(90deg, rgba(133, 121, 121, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+  }
 
 .pokeInfoDisplay {
-  position: relative;
-  right: 0px;
-  float: right;
-  margin: 1px;
-  display: inline-block;
+  transition: linear .2s;
+}
+
+.circleImg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-color: rgb(189, 33, 33);
+  bottom: 10px;
+  left: 60px;
+  border: 1px black solid;
+  border-radius: 200px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.circleImg2 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: rgba(148, 34, 34, 0.87);
+  top: 15px;
+  left: 135px;
+  border: 1px black solid;
+  border-radius: 200px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.circleImg3 {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  background-color: rgba(148, 34, 34, 0.87);
+  top: 15px;
+  left: 185px;
+  border: 1px black solid;
+  border-radius: 200px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.linesImg {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: 14px;
+  right: 40px;
+}
+
+.linesImg hr {
+  margin: -7px;
+  color: black;
+  border: 1px black solid;
+
+}
+
+.borderInfo {
+  position: absolute;
+  width: 528px;
+  height: 636px;
+  /* background-color: #096821; */
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;;
+  border-bottom-left-radius: 75px;
+  border: 2px black solid;
+}
+
+.spacerInfo {
+  position: absolute;
+  width: 86px;
+  height: 10px;
+  background-color: #88142d;
+  left: -1px;
+  top: 0;
+  /* border-top-left-radius: 5px;
+/*   border-top-left-radius: 5px; */
+}
+
+.topDecor {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  background-color: #eb1d49;
+  left: -2px;
+  top: -200px;
+  border-bottom-right-radius: 50px;
+  border-bottom: 1px black solid;
+  z-index: 3;
+}
+
+.topDecorRight {
+  position: absolute;
+  width: 246px;
+  height: 74px;
+  background-color: #eb1d49;
+  left: 298px;
+  top: -74px;
+  border-top-left-radius: 29px;
+  border-top: 1px #000000 solid;
+  border-top: 3px #88142d solid;
+}
+
+.backgroundDecor {
+  position: absolute;
+  width: 545px;
+  height: 200px;
+  background-color: #eb1d49;
+  left: -1px;
+  top: -200px;
+  z-index: -1;
 }

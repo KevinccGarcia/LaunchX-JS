@@ -5,7 +5,7 @@ let value;
 let pokeName;
 let pokeNumber;
 let pokeImage;
-let pokeShiny;
+let pokeBack;
 let pokeType;
 let pokeTypeSecond;
 let pokeAbility;
@@ -43,7 +43,7 @@ const app = (value) => {
     pokeName = data.species.name;
     pokeNumber = data.id;
     pokeImage = data.sprites.front_default;
-    pokeShiny = data.sprites.front_shiny;
+    pokeBack = data.sprites.back_default;
     pokeType = data.types[0].type.name;
     if (data.types.length == 2) {
       pokeTypeSecond = data.types[1].type.name;
@@ -66,7 +66,7 @@ const app = (value) => {
 
     $("#pokeImage").attr("src", pokeImage);
 
-    $("#pokeImageShiny").attr("src", pokeShiny);
+    $("#pokeImageBack").attr("src", pokeBack);
 
     $("#pokeType").text(capitalize(pokeType));
     if (pokeTypeSecond != undefined && pokeType != pokeTypeSecond) {
