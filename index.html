@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex </title>
+
+    <link rel="stylesheet" href="styles/css/style.css">
+</head>
+
+<body>
+ <!--First section -->
+ <section class="pokedex">
+    <section class="pokeSearch" id="pokeSearch">
+        <div class="mainTitlePoke"><h1 class="main_title" id="main_title">Pokédex</h1></div>
+        <div class="main" id="main">
+            </p>
+            <input class="main_input" id="main_input" type="text" placeholder="Pikachu">
+        </div>
+    </section>
+<!--Second section-->
+    <div class="middleinf"></div>
+        <section class="pokeInfo" id="poke_info">
+
+            <div class="pokeImages">
+
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/132.png" alt="pokemonImage" class="pokeImage" id="pokeImage">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png" alt="shinyPokemonImage" class="pokeImageShiny" id="pokeImageShiny">
+            </div>
+
+            <div class="pokeTitles">Nombre</div>
+            <div class="pokeInfoDisplay" id="pokeName"></div>
+
+            <div class="pokeTitles">Numero</div>
+            <div class="pokeInfoDisplay" id="pokeNumber"></div>
+
+
+            <div class="pokeTitles">Tipo</div>
+            <div class="pokeInfoDisplay" id="pokeType"></div>
+            <div class="pokeInfoDisplay" id="pokeTypeSecond"></div>
+
+            <div class="pokeTitles">Abilidad</div>
+            <div class="pokeInfoDisplay" id="pokeAbility"></div>
+            <div class="pokeInfoDisplay" id="pokeAbilitySecond"></div>
+
+            <div class="pokeTitles">Peso</div>
+            <div class="pokeWeigth" id="pokeWeigth"></div>
+
+            <div class="pokeStats" id="pokeStats">
+
+                <div class="pokeTitles">HP</div>
+                <div class="pokeInfoDisplay" id="pokeHp"></div>
+
+                <div class="pokeTitles">Ataque</div>
+                <div class="pokeInfoDisplay" id="pokeAttack"></div>
+
+                <div class="pokeTitles">Defensa</div>
+                <div class="pokeInfoDisplay" id="pokeDefense"></div>
+
+                <div class="pokeTitles">Ataque Especial</div>
+                <div class="pokeInfoDisplay" id="pokeSpecialAttack"></div>
+
+                <div class="pokeTitles">Defensa Especial</div>
+                <div class="pokeInfoDisplay" id="pokeSpecialDefense"></div>
+
+                <div class="pokeTitles">Velocidad</div>
+                <div class="pokeInfoDisplay" id="pokeSpeed"></div>
+            </div>
+
+
+
+        </section>
+    </div>
+
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./JS/app.js"></script>
+</body>
+
+</html>

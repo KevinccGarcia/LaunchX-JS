@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Pokemontitle;
+  src: url(../.././styles/fonts/PokemonSolid.ttf); }
+
+@font-face {
+  font-family: Pokemonsubtitle;
+  src: url(../.././styles/fonts/PokemonHollow.ttf); }
+
+  *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+   display: flex;
+   font-family: sans-serif;
+   justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url("../../assets/images/background.png");
+}
+.pokedex {
+  align-items: flex-end;
+  display: flex;
+  position: relative;
+  height: 500px;
+  margin: 50px;
+  width: 800px;
+  top: 125px;
+}
+
+.pokeSearch {
+  background-color: #eb1d49;
+  display: flex;
+  position: absolute;
+  width: 415px;
+  height: 446px;
+  right: 32px;
+  top: 0px;
+  border-bottom-right-radius: 46px;
+  border-top-right-radius: 9px;
+}
+
+.main {
+  position: absolute;
+  padding: 2%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  right: 75px;
+  top: 125px;
+  font-family: 'Pokemsubtitle, sans-serif';
+  box-sizing: content-box;
+}
+
+.mainTitlePoke {
+  background-color: #ffffff00;
+  position: absolute;
+  height: 56px;
+  width: 250px;
+  right: 31px;
+  top: -37px;
+  align-items: center;
+  text-align: center;
+  font-family: 'Pokemontitle';
+  font-size: 3rem;
+  padding: -10px 1px;
+  color: black;
+
+}
+
+.main_input {
+  border-radius: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.pokeInfo {
+  background-color: #eb1d49;
+  position: absolute;
+  height: 354px;
+  width: 361px;
+  padding: 2%;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 10px;
+  box-shadow: -7px 10px 20px -4px rgb(0, 0, 0);
+  left: -8px;
+  top: 91px;
+  font-family: 'Pokemonsubtitle, sans-serif';
+}
+
+.middleinf {
+  position: absolute;
+  height: 446px;
+  width: 10px;
+  left: 353px;
+  top: 0px;
+  background-color: #b8193b;
+}
+
+.pokeInfo {
+  display: inline-block;
+}
+
+.pokeTitles {
+  font-family: '';
+  position: relative;
+  float: left;
+  left: 0px;
+  display: inline-block
+}
+
+.pokeInfoDisplay {
+  position: relative;
+  right: 0px;
+  float: right;
+  margin: 1px;
+  display: inline-block;
+}
